@@ -13,6 +13,9 @@ The overall flow is as below:
 - utilized various clustering algorithms including BIRCH, k-means, and so on.
 - designed expectable home screen layouts for the application, which give appropriate information and advice to each cluster group.
 
+### 📎 Files information
+- `Clustering
+
 
 # Overview in Korean
 # 앱 사용성 데이터를 통한 대출신청 예측 분석
