@@ -1,4 +1,19 @@
 # Brief Summary in English
+I participated in the data analysis contest as a team, carrying out a project dealing with data on the platform for loan comparison service. Although our team didn't make it to be nominated as a finalist, we could complete an entire project from researching the general domain (loan market) and company (its vision and mission), to analyzing the data followed by interpretation and suggestions on CRM and business plan.
+
+The overall flow is as below:
+1. `Classification problem`
+- predicted whether the customers would apply for a loan in a specific time period
+- based on given information including user data that users provide when they use the service, derived variables, and external data such as some economic indexes and interest rates.
+- considering characteristics of target customers and the platform (application) itself, including dependency on medium interest rate loan and personal rehabilitation system.
+- utilized various classification algorithms including random forest, catboost, adaboost and elliptic model, then tried ensembles.
+
+2. `clustering problem`
+- extracted insights on customized services considering the demand of target customers based on large-scale of data
+- utilized various clustering algorithms including BIRCH, k-means, and so on.
+- designed expectable home screen layouts for the application, which give appropriate information and advice to each cluster group.
+
+
 # Overview in Korean
 # 앱 사용성 데이터를 통한 대출신청 예측 분석
 
@@ -62,7 +77,7 @@
 
 1. 동일 유저 ID 기준으로 처리
 2. **논리 • 인과적 추론**을 통한 처리
-3. **다중 대체법(MICE)**을 통한 처리
+3. 다중 대체법(MICE)을 통한 처리
 
 ![Untitled 1](https://user-images.githubusercontent.com/101344070/210194000-34eb746a-0e23-47f3-8878-3df92ff18602.png)  
 
