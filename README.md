@@ -8,7 +8,7 @@ The overall flow is as below:
 - considering characteristics of target customers and the platform (application) itself, including dependency on medium interest rate loan and personal rehabilitation system.
 - utilized various classification algorithms including random forest, catboost, adaboost and elliptic model, then tried ensembles.
 
-### 2. `clustering problem`
+### 2. `Clustering problem`
 - extracted insights on customized services considering the demand of target customers based on large-scale of data
 - utilized various clustering algorithms including BIRCH, k-means, and so on.
 - designed expectable home screen layouts for the application, which give appropriate information and advice to each cluster group.
@@ -21,6 +21,7 @@ The overall flow is as below:
 - `Clustering_AppLogBased`: codes for clustering based on log data of application that indicates the user's action/behavior
 - `Clustering_UserDataBased`: codes for clustering based on user data of applications, which may develop into user-based collaborative filtering, considering prospective value
 - `Recommendation_byClustering`: additional algorithms that can recommend some loan products to the future user who has not applied for the loan yet
+
 
 
 # Overview in Korean
