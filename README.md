@@ -13,14 +13,14 @@ The overall flow is as below:
 - utilized various clustering algorithms including BIRCH, k-means, and so on.
 - designed expectable home screen layouts for the application, which give appropriate information and advice to each cluster group.
 
-#### 📎 Files information
+#### 📎 Files Information
 - `EDA_overall` : EDA for every given data, which include visualization of relationships between multiple variables
 - `EDA_regarding_IsApplied` : EDA specifically focusing on 'IsApplied' column, the Y label, which means whether the application case was completed.
 - `DataCleansing.ipynb`: codes for cleansing the data, which include imputating missing data and outliers
 - `Classification_Predction`: codes for preprocessing, splitting the datasets, and modeling for classification, which includes comparisons among the candidate models based on the evaluation on validation data
 - `Clustering_AppLogBased`: codes for clustering based on log data of application that indicates the user's action/behavior
 - `Clustering_UserDataBased`: codes for clustering based on user data of applications, which may develop into user-based collaborative filtering, considering prospective value
-- `Recommendation_byClustering`: additional algorithms that can recommend some loan products to the future user who has not apply for the loan yet
+- `Recommendation_byClustering`: additional algorithms that can recommend some loan products to the future user who has not applied for the loan yet
 
 
 # Overview in Korean
