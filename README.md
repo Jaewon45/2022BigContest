@@ -14,7 +14,13 @@ The overall flow is as below:
 - designed expectable home screen layouts for the application, which give appropriate information and advice to each cluster group.
 
 ### 📎 Files information
-- `Clustering
+- `DataCleansing`: codes for cleansing the data, 
+- `EDA_overall`
+- `EDA_regarding_IsApplied`
+- `Classification_Predction`
+- `Clustering_AppLogBased`
+- `Clustering_UserDataBased`
+- `Recommendation_byClustering`
 
 
 # Overview in Korean
