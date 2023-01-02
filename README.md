@@ -2,25 +2,25 @@
 I participated in the data analysis contest as a team, carrying out a project dealing with data on the platform for loan comparison service. Although our team didn't make it to be nominated as a finalist, we could complete an entire project from researching the general domain (loan market) and company (its vision and mission), to analyzing the data followed by interpretation and suggestions on CRM and business plan.
 
 The overall flow is as below:
-1. `Classification problem`
+### 1. `Classification problem`
 - predicted whether the customers would apply for a loan in a specific time period
 - based on given information including user data that users provide when they use the service, derived variables, and external data such as some economic indexes and interest rates.
 - considering characteristics of target customers and the platform (application) itself, including dependency on medium interest rate loan and personal rehabilitation system.
 - utilized various classification algorithms including random forest, catboost, adaboost and elliptic model, then tried ensembles.
 
-2. `clustering problem`
+### 2. `clustering problem`
 - extracted insights on customized services considering the demand of target customers based on large-scale of data
 - utilized various clustering algorithms including BIRCH, k-means, and so on.
 - designed expectable home screen layouts for the application, which give appropriate information and advice to each cluster group.
 
-### 📎 Files information
-- `DataCleansing`: codes for cleansing the data, 
-- `EDA_overall`
-- `EDA_regarding_IsApplied`
-- `Classification_Predction`
-- `Clustering_AppLogBased`
-- `Clustering_UserDataBased`
-- `Recommendation_byClustering`
+#### 📎 Files information
+- `EDA_overall` : EDA for every given data, which include visualization of relationships between multiple variables
+- `EDA_regarding_IsApplied` : EDA specifically focusing on 'IsApplied' column, the Y label, which means whether the application case was completed.
+- `DataCleansing.ipynb`: codes for cleansing the data, which include imputating missing data and outliers
+- `Classification_Predction`: codes for preprocessing, splitting the datasets, and modeling for classification, which includes comparisons among the candidate models based on the evaluation on validation data
+- `Clustering_AppLogBased`: codes for clustering based on log data of application that indicates the user's action/behavior
+- `Clustering_UserDataBased`: codes for clustering based on user data of applications, which may develop into user-based collaborative filtering, considering prospective value
+- `Recommendation_byClustering`: additional algorithms that can recommend some loan products to the future user who has not apply for the loan yet
 
 
 # Overview in Korean
